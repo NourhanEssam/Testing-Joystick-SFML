@@ -67,6 +67,7 @@ void Joystick::readJoystickState() {
     //    if(y != 0){qDebug()<<"Y "<<y;}
     //    if(z != 0){qDebug()<<"Z "<<z;}
     //    if(r != 0){qDebug()<<"R "<<r;}
+    //    if(x == 100){qDebug()<<"X "<<x;}
 
     if (sf::Joystick::isConnected(joystickNumber)) {
         for (int i = 0; i < BUTTON_COUNT; i++) {
